@@ -8,13 +8,14 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
-        h1{
-            text-align: center;
-        }
+       
+        
+        
         table{
             width: 500px;
             border-collapse: collapse;
-            margin: auto;
+            position: relative;
+            
         }
         caption{
             font-size: 1.5em;
@@ -32,6 +33,11 @@
         tbody > tr:nth-child(even) {/* 2n */
             background-color: rgb(85, 85, 85);
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
@@ -39,6 +45,7 @@
         }
         td.num{
             text-align: right;
+           
         }
     </style>
 </head>
@@ -60,7 +67,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col" style= "width: 90px;">população</th>
+                <th scope="col" style= "width: 90px;">População</th>
 
             </tr>
         </thead>
@@ -182,5 +189,10 @@
 
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorem recusandae molestias explicabo ut ratione deleniti atque incidunt numquam aperiam illo quisquam non esse hic nesciunt corrupti, quibusdam accusantium Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus aliquid non ex. Aliquid architecto quae velit numquam accusantium optio nulla ab recusandae nostrum, beatae modi saepe, sapiente magnam cumque rerum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed nemo velit cumque corporis iusto quo dolorum eius? Nihil, fugit reprehenderit! Vitae dolores aliquam laboriosam nemo quisquam magni fugiat eos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae optio veniam, quis, impedit quibusdam reprehenderit earum modi omnis fugit voluptas nisi, repellendus exercitationem non est quas velit quam! Nemo, corporis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui consequatur laboriosam, consectetur dolor temporibus assumenda, minus nulla quidem animi expedita, rem eaque obcaecati voluptas illo velit! Enim sed nam soluta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi enim voluptatem debitis sunt possimus ipsam fuga aperiam exercitationem ipsum autem soluta doloremque et, in voluptatum laudantium omnis libero a aliquam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam autem nisi, maxime ratione alias ullam delectus minus quod. Maiores illum cumque, voluptates aut perspiciatis a sapiente error adipisci omnis numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nam in exercitationem quidem dolores. Saepe incidunt quam quae? Eos est adipisci natus minus reiciendis illo numquam eveniet, velit pariatur accusamus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptatibus soluta corporis ipsam nisi quisquam debitis similique voluptates iure veniam, nihil voluptatum consequatur esse suscipit minima nam, optio, incidunt a?</p>
 </body>
 </html>
